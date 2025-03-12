@@ -1,0 +1,161 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fce6f0; /* Light pink background */
+}
+
+header {
+    background-color: #e91e63; /* Bright pink */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.banner {
+    background: url('fashion-banner.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+    background-color: #f48fb1; /* Light pink background for the banner */
+}
+
+.banner h2 {
+    font-size: 3em;
+}
+
+.btn-shop-now {
+    background-color: #ff80ab; /* Medium pink */
+    padding: 10px 20px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-shop-now:hover {
+    background-color: #ff4081; /* Darker pink on hover */
+}
+
+section {
+    padding: 40px;
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #f50057; /* Bright pink for section titles */
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: #f8bbd0; /* Light pink for product items */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+    color: #ec407a; /* Medium pink */
+}
+
+.product-item span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e91e63; /* Bright pink */
+}
+
+.btn-contact-us {
+    display: block;
+    background-color: #e91e63; /* Bright pink */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-contact-us:hover {
+    background-color: #d81b60; /* Darker pink */
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #f50057; /* Bright pink */
+}
+
+input, textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #f48fb1; /* Light pink border */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #e91e63; /* Bright pink */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d81b60; /* Darker pink */
+}
+
+footer {
+    background-color: #f50057; /* Bright pink */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
